@@ -1,0 +1,15 @@
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\bin\Debug\UNISOFT.exe.config
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\bin\Debug\UNISOFT.exe
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\bin\Debug\UNISOFT.pdb
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\bin\Debug\UNISOFT.xml
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.vbprojAssemblyReference.cache
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.Resources.resources
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.vbproj.GenerateResource.cache
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.vbproj.CoreCompileInputs.cache
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.exe
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.xml
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.pdb
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.Unisoft.resources
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.InicioSesion.resources
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.CrearUsuarios.resources
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.UnisoftInicio.resources
