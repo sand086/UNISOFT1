@@ -26,7 +26,7 @@ Public Class InicioSesion
             End Try
             'EN CASO DE NO TENER CONTRASEÑA SE CIERRA LA APLICACION
             If logusuario = "" Or pass = "" Then
-                MsgBox("Favor de Llenar los Kampos")
+                MsgBox("Favor de Llenar los Campos")
             Else
                 Thread.Sleep(2000)
                 MsgBox("Bienveni  " + logusuario)
