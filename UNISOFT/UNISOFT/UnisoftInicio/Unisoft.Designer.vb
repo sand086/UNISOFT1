@@ -30,6 +30,14 @@ Partial Class Unisoft
         Me.Fin = New System.Windows.Forms.TabPage()
         Me.EscolOrd = New System.Windows.Forms.TabPage()
         Me.Plan = New System.Windows.Forms.TabPage()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.DetallesEst = New System.Windows.Forms.Button()
+        Me.Cicloesc = New System.Windows.Forms.Button()
+        Me.PlanEstud = New System.Windows.Forms.Button()
+        Me.Grupo = New System.Windows.Forms.Button()
+        Me.Profes = New System.Windows.Forms.Button()
+        Me.Materia = New System.Windows.Forms.Button()
+        Me.Licen = New System.Windows.Forms.Button()
         Me.Aud = New System.Windows.Forms.TabPage()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
@@ -48,15 +56,9 @@ Partial Class Unisoft
         Me.Button1 = New System.Windows.Forms.Button()
         Me.EscolarOrd = New System.Windows.Forms.Button()
         Me.PromoyDifu = New System.Windows.Forms.Button()
-        Me.Licen = New System.Windows.Forms.Button()
-        Me.DetallesEst = New System.Windows.Forms.Button()
-        Me.Cicloesc = New System.Windows.Forms.Button()
-        Me.PlanEstud = New System.Windows.Forms.Button()
-        Me.Grupo = New System.Windows.Forms.Button()
-        Me.Profes = New System.Windows.Forms.Button()
-        Me.Materia = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.pruebas = New System.Windows.Forms.Button()
         Me.TabControl.SuspendLayout()
+        Me.promoydif.SuspendLayout()
         Me.Plan.SuspendLayout()
         Me.Aud.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -91,6 +93,7 @@ Partial Class Unisoft
         'promoydif
         '
         Me.promoydif.BackColor = System.Drawing.Color.Khaki
+        Me.promoydif.Controls.Add(Me.pruebas)
         Me.promoydif.Location = New System.Drawing.Point(4, 22)
         Me.promoydif.Name = "promoydif"
         Me.promoydif.Padding = New System.Windows.Forms.Padding(3)
@@ -135,6 +138,79 @@ Partial Class Unisoft
         Me.Plan.Size = New System.Drawing.Size(1217, 715)
         Me.Plan.TabIndex = 4
         Me.Plan.Text = "Plantel"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(329, 34)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(317, 42)
+        Me.Label1.TabIndex = 14
+        Me.Label1.Text = "MENU PLANTEL"
+        '
+        'DetallesEst
+        '
+        Me.DetallesEst.Location = New System.Drawing.Point(336, 226)
+        Me.DetallesEst.Name = "DetallesEst"
+        Me.DetallesEst.Size = New System.Drawing.Size(160, 61)
+        Me.DetallesEst.TabIndex = 13
+        Me.DetallesEst.Text = "DETALLE PLAN ESTUDIO"
+        Me.DetallesEst.UseVisualStyleBackColor = True
+        '
+        'Cicloesc
+        '
+        Me.Cicloesc.Location = New System.Drawing.Point(526, 226)
+        Me.Cicloesc.Name = "Cicloesc"
+        Me.Cicloesc.Size = New System.Drawing.Size(160, 61)
+        Me.Cicloesc.TabIndex = 12
+        Me.Cicloesc.Text = "CICLO ESCOLAR"
+        Me.Cicloesc.UseVisualStyleBackColor = True
+        '
+        'PlanEstud
+        '
+        Me.PlanEstud.Location = New System.Drawing.Point(142, 226)
+        Me.PlanEstud.Name = "PlanEstud"
+        Me.PlanEstud.Size = New System.Drawing.Size(158, 61)
+        Me.PlanEstud.TabIndex = 11
+        Me.PlanEstud.Text = "PLAN DE ESTUDIO"
+        Me.PlanEstud.UseVisualStyleBackColor = True
+        '
+        'Grupo
+        '
+        Me.Grupo.Location = New System.Drawing.Point(721, 129)
+        Me.Grupo.Name = "Grupo"
+        Me.Grupo.Size = New System.Drawing.Size(161, 58)
+        Me.Grupo.TabIndex = 10
+        Me.Grupo.Text = "GRUPOS"
+        Me.Grupo.UseVisualStyleBackColor = True
+        '
+        'Profes
+        '
+        Me.Profes.Location = New System.Drawing.Point(526, 129)
+        Me.Profes.Name = "Profes"
+        Me.Profes.Size = New System.Drawing.Size(160, 57)
+        Me.Profes.TabIndex = 9
+        Me.Profes.Text = "PROFESORES"
+        Me.Profes.UseVisualStyleBackColor = True
+        '
+        'Materia
+        '
+        Me.Materia.Location = New System.Drawing.Point(336, 129)
+        Me.Materia.Name = "Materia"
+        Me.Materia.Size = New System.Drawing.Size(160, 58)
+        Me.Materia.TabIndex = 8
+        Me.Materia.Text = "MATERIAS"
+        Me.Materia.UseVisualStyleBackColor = True
+        '
+        'Licen
+        '
+        Me.Licen.Location = New System.Drawing.Point(142, 129)
+        Me.Licen.Name = "Licen"
+        Me.Licen.Size = New System.Drawing.Size(156, 58)
+        Me.Licen.TabIndex = 1
+        Me.Licen.Text = "LICENCIATURAS"
+        Me.Licen.UseVisualStyleBackColor = True
         '
         'Aud
         '
@@ -428,78 +504,14 @@ Partial Class Unisoft
         Me.PromoyDifu.Text = "Promoción y Difusion"
         Me.PromoyDifu.UseVisualStyleBackColor = False
         '
-        'Licen
+        'pruebas
         '
-        Me.Licen.Location = New System.Drawing.Point(142, 129)
-        Me.Licen.Name = "Licen"
-        Me.Licen.Size = New System.Drawing.Size(156, 58)
-        Me.Licen.TabIndex = 1
-        Me.Licen.Text = "LICENCIATURAS"
-        Me.Licen.UseVisualStyleBackColor = True
-        '
-        'DetallesEst
-        '
-        Me.DetallesEst.Location = New System.Drawing.Point(336, 226)
-        Me.DetallesEst.Name = "DetallesEst"
-        Me.DetallesEst.Size = New System.Drawing.Size(160, 61)
-        Me.DetallesEst.TabIndex = 13
-        Me.DetallesEst.Text = "DETALLE PLAN ESTUDIO"
-        Me.DetallesEst.UseVisualStyleBackColor = True
-        '
-        'Cicloesc
-        '
-        Me.Cicloesc.Location = New System.Drawing.Point(526, 226)
-        Me.Cicloesc.Name = "Cicloesc"
-        Me.Cicloesc.Size = New System.Drawing.Size(160, 61)
-        Me.Cicloesc.TabIndex = 12
-        Me.Cicloesc.Text = "CICLO ESCOLAR"
-        Me.Cicloesc.UseVisualStyleBackColor = True
-        '
-        'PlanEstud
-        '
-        Me.PlanEstud.Location = New System.Drawing.Point(142, 226)
-        Me.PlanEstud.Name = "PlanEstud"
-        Me.PlanEstud.Size = New System.Drawing.Size(158, 61)
-        Me.PlanEstud.TabIndex = 11
-        Me.PlanEstud.Text = "PLAN DE ESTUDIO"
-        Me.PlanEstud.UseVisualStyleBackColor = True
-        '
-        'Grupo
-        '
-        Me.Grupo.Location = New System.Drawing.Point(721, 129)
-        Me.Grupo.Name = "Grupo"
-        Me.Grupo.Size = New System.Drawing.Size(161, 58)
-        Me.Grupo.TabIndex = 10
-        Me.Grupo.Text = "GRUPOS"
-        Me.Grupo.UseVisualStyleBackColor = True
-        '
-        'Profes
-        '
-        Me.Profes.Location = New System.Drawing.Point(526, 129)
-        Me.Profes.Name = "Profes"
-        Me.Profes.Size = New System.Drawing.Size(160, 57)
-        Me.Profes.TabIndex = 9
-        Me.Profes.Text = "PROFESORES"
-        Me.Profes.UseVisualStyleBackColor = True
-        '
-        'Materia
-        '
-        Me.Materia.Location = New System.Drawing.Point(336, 129)
-        Me.Materia.Name = "Materia"
-        Me.Materia.Size = New System.Drawing.Size(160, 58)
-        Me.Materia.TabIndex = 8
-        Me.Materia.Text = "MATERIAS"
-        Me.Materia.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(329, 34)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(317, 42)
-        Me.Label1.TabIndex = 14
-        Me.Label1.Text = "MENU PLANTEL"
+        Me.pruebas.Location = New System.Drawing.Point(507, 144)
+        Me.pruebas.Name = "pruebas"
+        Me.pruebas.Size = New System.Drawing.Size(75, 23)
+        Me.pruebas.TabIndex = 0
+        Me.pruebas.Text = "Prueba"
+        Me.pruebas.UseVisualStyleBackColor = True
         '
         'Unisoft
         '
@@ -518,6 +530,7 @@ Partial Class Unisoft
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Unisoft"
         Me.TabControl.ResumeLayout(False)
+        Me.promoydif.ResumeLayout(False)
         Me.Plan.ResumeLayout(False)
         Me.Plan.PerformLayout()
         Me.Aud.ResumeLayout(False)
@@ -560,4 +573,5 @@ Partial Class Unisoft
     Friend WithEvents Profes As Button
     Friend WithEvents Materia As Button
     Friend WithEvents Licen As Button
+    Friend WithEvents pruebas As Button
 End Class
