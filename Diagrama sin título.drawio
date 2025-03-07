@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2604" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4211" dy="2615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,7 +182,7 @@
             <mxRectangle x="80" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="Contacto con Personal" treeRoot="1" id="zasUPC08VAO-rqskikHR-105">
+        <UserObject label="Comunicación interna y externa" treeRoot="1" id="zasUPC08VAO-rqskikHR-105">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="zasUPC08VAO-rqskikHR-104">
             <mxGeometry x="34" y="70" width="120" height="60" as="geometry" />
           </mxCell>
@@ -198,8 +198,9 @@
         <mxCell id="zasUPC08VAO-rqskikHR-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-88" target="zasUPC08VAO-rqskikHR-107">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="686" y="-88" />
               <mxPoint x="540" y="-88" />
-              <mxPoint x="540" y="260" />
+              <mxPoint x="540" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -311,9 +312,14 @@
             <mxPoint x="1078" y="-33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zasUPC08VAO-rqskikHR-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.834;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-155" target="zasUPC08VAO-rqskikHR-49">
+        <mxCell id="zasUPC08VAO-rqskikHR-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-155">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="900" y="-560" as="sourcePoint" />
+            <mxPoint x="430" y="-22" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1008" y="-380" />
+              <mxPoint x="430" y="-380" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zasUPC08VAO-rqskikHR-155" value="&lt;b&gt;Comunicación interna&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
@@ -336,6 +342,237 @@
         </mxCell>
         <mxCell id="zasUPC08VAO-rqskikHR-146" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
           <mxGeometry x="1918.25" y="298.37" width="61" height="61" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;b&gt;CRM&lt;/b&gt; - &lt;br&gt;Atención a clientes" treeRoot="1" id="zasUPC08VAO-rqskikHR-173">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;fontColor=#941313;" vertex="1" parent="1">
+            <mxGeometry x="-176" y="-390" width="150" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zasUPC08VAO-rqskikHR-175" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#ff0000, #ededed);" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-187" target="zasUPC08VAO-rqskikHR-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="40" as="sourcePoint" />
+            <mxPoint x="220" y="-10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-192" value="Canales Integrados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zasUPC08VAO-rqskikHR-175">
+          <mxGeometry x="-0.3881" y="-2" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="AI/Chatbot" treeRoot="1" id="zasUPC08VAO-rqskikHR-177">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;fontColor=#941313;" vertex="1" parent="1">
+            <mxGeometry x="-166" y="-566" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zasUPC08VAO-rqskikHR-180" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.458;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-177">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="-245.5" as="sourcePoint" />
+            <mxPoint x="-105.30000000000018" y="-391.53999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-191" value="Respuestas Automáticas y &lt;br&gt;Reducción de Tickets Manuales" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zasUPC08VAO-rqskikHR-180">
+          <mxGeometry x="-0.3053" y="-2" relative="1" as="geometry">
+            <mxPoint y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-185" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#ff0000, #ededed);" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-187" target="zasUPC08VAO-rqskikHR-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-70" as="sourcePoint" />
+            <mxPoint x="260" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-196" value="Automatización de llamadas &lt;br&gt;y vinculación con tickets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zasUPC08VAO-rqskikHR-185">
+          <mxGeometry x="-0.0202" y="-1" relative="1" as="geometry">
+            <mxPoint x="-25" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-186" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.388;exitY=1.051;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#ff0000, #ededed);exitPerimeter=0;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-187" target="zasUPC08VAO-rqskikHR-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="130" as="sourcePoint" />
+            <mxPoint x="30" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-118" y="-245" />
+              <mxPoint x="-120" y="-245" />
+              <mxPoint x="-120" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Omnicanal (WhatsApp, Llamadas, Email)" treeRoot="1" id="zasUPC08VAO-rqskikHR-187">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;fontColor=#941313;" vertex="1" parent="1">
+            <mxGeometry x="-165" y="-275" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zasUPC08VAO-rqskikHR-189" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="zasUPC08VAO-rqskikHR-187">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-99" y="-320" as="sourcePoint" />
+            <mxPoint x="-295" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;b&gt;&amp;nbsp;CRM - &lt;br&gt;&lt;/b&gt;Llamadas/IVR" treeRoot="1" id="zasUPC08VAO-rqskikHR-193">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;fontColor=#941313;" vertex="1" parent="1">
+            <mxGeometry x="185" y="-390" width="150" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zasUPC08VAO-rqskikHR-198" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=light-dark(#b70404, #ededed);" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-173">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="51" y="-305" as="sourcePoint" />
+            <mxPoint x="185" y="-355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-202" value="Integración con Tickets &lt;br&gt;y Seguimiento de Envíos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zasUPC08VAO-rqskikHR-198">
+          <mxGeometry x="0.0625" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-200" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#ff0000, #ededed);" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-193" target="zasUPC08VAO-rqskikHR-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="-370" as="sourcePoint" />
+            <mxPoint x="410" y="-420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="-340" />
+              <mxPoint x="687" y="-340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-201" value="Automatización de llamadas y &lt;br&gt;derivación inteligente" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zasUPC08VAO-rqskikHR-200">
+          <mxGeometry x="-0.1357" y="3" relative="1" as="geometry">
+            <mxPoint x="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-416" value="&lt;li data-start=&quot;992&quot; data-end=&quot;1034&quot;&gt;---&amp;nbsp;&amp;nbsp; Negro = &lt;strong data-start=&quot;1007&quot; data-end=&quot;1032&quot;&gt;Herramientas Actuales&lt;/strong&gt;&lt;/li&gt;&lt;br&gt;&lt;li data-start=&quot;1038&quot; data-end=&quot;1078&quot;&gt;&lt;span style=&quot;color: rgb(181, 21, 21);&quot;&gt;---&amp;nbsp;&amp;nbsp; Rojo&lt;/span&gt; = &lt;strong data-start=&quot;1053&quot; data-end=&quot;1076&quot;&gt;Funcionalidades CRM&lt;/strong&gt;&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1681" y="588" width="230" height="70" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;b&gt;CRM - &lt;/b&gt;Finanzas (CxC, CxP, Facturación)" treeRoot="1" id="zasUPC08VAO-rqskikHR-417">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;fontColor=#941313;" vertex="1" parent="1">
+            <mxGeometry x="1147" y="1021" width="150" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zasUPC08VAO-rqskikHR-419" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=light-dark(#ff0000, #ededed);strokeColor=#FF3333;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-420" target="zasUPC08VAO-rqskikHR-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="1000" as="sourcePoint" />
+            <mxPoint x="1370" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Automatización de cuentas y facturación, reportes en tiempo real" treeRoot="1" id="zasUPC08VAO-rqskikHR-420">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;fontColor=#941313;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="860" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zasUPC08VAO-rqskikHR-422" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.453;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-417" target="zasUPC08VAO-rqskikHR-420">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="1010" as="sourcePoint" />
+            <mxPoint x="1190" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-425" value="Centraliza data &lt;br&gt;y elimina errores manuales" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zasUPC08VAO-rqskikHR-422">
+          <mxGeometry x="-0.0567" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-424" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-420" target="zasUPC08VAO-rqskikHR-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="1010" as="sourcePoint" />
+            <mxPoint x="890" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="900" />
+              <mxPoint x="980" y="832" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-453" value="facturación automática" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zasUPC08VAO-rqskikHR-424">
+          <mxGeometry x="-0.4712" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-436" value="" style="curved=0;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-173" target="zasUPC08VAO-rqskikHR-146">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="-430" as="sourcePoint" />
+            <mxPoint x="1150" y="-570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="-390" />
+              <mxPoint x="20" y="-560" />
+              <mxPoint x="1940" y="-560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-437" value="Automatización y respuesta con AI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zasUPC08VAO-rqskikHR-436">
+          <mxGeometry x="-0.7297" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Alertas y notificaciones" treeRoot="1" id="zasUPC08VAO-rqskikHR-438">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;fontColor=#941313;" vertex="1" parent="1">
+            <mxGeometry x="240" y="-498" width="150" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zasUPC08VAO-rqskikHR-440" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.285;exitDx=0;exitDy=0;entryX=0;entryY=0.543;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-173" target="zasUPC08VAO-rqskikHR-438">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="-420" as="sourcePoint" />
+            <mxPoint x="180" y="-470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="-370" />
+              <mxPoint y="-460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-442" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-438" target="zasUPC08VAO-rqskikHR-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="-450" as="sourcePoint" />
+            <mxPoint x="500" y="-500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="715" y="-463" />
+              <mxPoint x="715" y="-488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;b&gt;&amp;nbsp;CRM - Comercial&lt;/b&gt;" treeRoot="1" id="zasUPC08VAO-rqskikHR-443">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;fontColor=#941313;" vertex="1" parent="1">
+            <mxGeometry x="1560" y="-428" width="150" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Automatización de leads y asignación de prospectos" treeRoot="1" id="zasUPC08VAO-rqskikHR-444">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;fontColor=#941313;" vertex="1" parent="1">
+            <mxGeometry x="1560" y="-290" width="150" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Generación de Cotizaciones" treeRoot="1" id="zasUPC08VAO-rqskikHR-445">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;fontColor=#941313;" vertex="1" parent="1">
+            <mxGeometry x="1560" y="-142" width="150" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zasUPC08VAO-rqskikHR-447" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-443" target="zasUPC08VAO-rqskikHR-444">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1630" y="-290" as="sourcePoint" />
+            <mxPoint x="1680" y="-340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-448" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.504;exitY=1.046;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-444" target="zasUPC08VAO-rqskikHR-445">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1650" y="-160" as="sourcePoint" />
+            <mxPoint x="1700" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-449" value="Automatización y seguimiento" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zasUPC08VAO-rqskikHR-448">
+          <mxGeometry x="-0.22" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-451" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zasUPC08VAO-rqskikHR-443" target="zasUPC08VAO-rqskikHR-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="-440" as="sourcePoint" />
+            <mxPoint x="1470" y="-490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1635" y="-488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasUPC08VAO-rqskikHR-452" value="Notificación de ventas cerradas &lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zasUPC08VAO-rqskikHR-451">
+          <mxGeometry x="0.4038" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
